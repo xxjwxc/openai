@@ -1,13 +1,13 @@
 # chatgpt
 
-> chartgpt client for golang
+> openai client for golang
 
 ## Usege
 
 Download the package first:
 
 ```shell
-go get github.com/solywsh/chatgpt
+go get github.com/xxjwxc/openai
 ```
 
 无上下文:
