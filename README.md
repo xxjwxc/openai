@@ -1,8 +1,8 @@
-# chatgpt
+# openai
 
 > openai client for golang
 
-## Usege
+## chatgpt
 
 Download the package first:
 
@@ -84,6 +84,9 @@ func main() {
 	// A: 喵喵~!
 }
 ```
+
+
+## Dall.E
 
 文字转图片:
 
