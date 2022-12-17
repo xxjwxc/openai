@@ -39,6 +39,6 @@ func TestChatgpt(t *testing.T) {
 
 func TestDalle(t *testing.T) {
 	dalle := NewDallE(chatGpt_token, "aaaaa", 10*time.Second)
-	err, list := dalle.GenPhoto("闭月羞花", 1, "512x512")
+	err, list := dalle.GenPhotoBase64("晚霞", 1, "512x512")
 	fmt.Println(err, list)
 }
